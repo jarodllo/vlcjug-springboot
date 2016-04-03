@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: greeting-user
+    freemarker:
+        enabled: false     #Ignore Eureka dashboard FreeMarker templates
+
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8001/eureka/
+
+
+server:
+    port: 8002   # HTTP (Tomcat) port

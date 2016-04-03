@@ -1,0 +1,5 @@
+com/eurekaclient/UserService.class
+com/eurekaclient/configuration/JtwigViewResolverConfig.class
+com/eurekaclient/User.class
+com/eurekaclient/EurekaclientApplication.class
+com/eurekaclient/GrettingController.class

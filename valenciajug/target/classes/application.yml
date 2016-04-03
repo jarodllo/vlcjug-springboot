@@ -1,0 +1,21 @@
+spring:
+    application:
+        name: user-service
+    freemarker:
+        enabled: false
+    datasource:
+        url: jdbc:mysql://localhost:3306/springapp
+        username: root
+        password: root
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8001/eureka/
+
+# HTTP Server
+server:
+    port: 8003
+
+banner:
+   location: bannerJavaJUG.txt

@@ -1,0 +1,6 @@
+com/valenciajug/entity/User.class
+com/valenciajug/controller/LoginController.class
+com/valenciajug/ValenciajugApplication.class
+com/valenciajug/controller/UserController.class
+com/valenciajug/configuration/JtwigViewResolverConfig.class
+com/valenciajug/entity/UserRepository.class

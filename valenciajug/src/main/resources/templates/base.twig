@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        {% block head %}
+            <title>VALENCIA JAVA USER GROUP</title>
+            <!-- Bootstrap -->
+            <link href="/css/bootstrap.min.css" rel="stylesheet">
+        {% endblock %}
+    </head>
+    <body>
+        {% block title %}
+            <div class="well well-lg">
+                <h1 class="text-center">VALENCIA JAVA USER GROUP</h1>
+            </div>
+
+        {% endblock %}
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+
+                {% block content %}
+
+
+                {% endblock %}
+
+            </div>
+        </div>
+
+        {% block js %}
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/bootstrap.min.js"></script>
+        {% endblock %}
+
+    </body>
+</html>
